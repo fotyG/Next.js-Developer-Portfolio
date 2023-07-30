@@ -5,6 +5,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 
 import Skills from "@/components/Skills";
 import Layout from "@/components/Layout";
+import Education from "@/components/Education";
 import Experience from "@/components/Experience";
 import AnimatedText from "@/components/AnimatedText";
 import profilePic from "../../public/images/profile/developer-pic-2.jpg";
@@ -111,6 +112,7 @@ const about = () => {
           </div>
           <Skills />
           <Experience />
+          <Education />
         </Layout>
       </main>
     </>
